@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/Critical-Component-Finder
+      url: https://pypi.org/project/Critical-Component-Finder
     permissions:
       id-token: write
     steps:
