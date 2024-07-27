@@ -12,10 +12,11 @@ dependencies = [
     "graphviz",
     "networkx"
 ]
-name = "critical_components_finder"
+name = "Critical-Component-Finder"
 version = "1.0.0"
 authors = [
-  { name="Ramis", email="bebra@bebramail.com" },
+  { name="Ramis", email="rv6782730@gmail.com
+" },
 ]
 description = "Finds critical components chain in C/C++ CMake projects"
 readme = "README.md"
