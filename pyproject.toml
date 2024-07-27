@@ -15,8 +15,7 @@ dependencies = [
 name = "critical_component_finder_valiewramis"
 version = "1.0.0"
 authors = [
-  { name="Ramis", email="rv6782730@gmail.com
-" },
+  { name="Ramis", email="rv6782730@gmail.com" },
 ]
 description = "Finds critical components chain in C/C++ CMake projects"
 readme = "README.md"
