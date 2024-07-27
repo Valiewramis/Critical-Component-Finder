@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/project/Critical-Component-Finder
+      url: https://pypi.org/p/Critical-Component-Finder
     permissions:
       id-token: write
     steps:
@@ -26,5 +26,16 @@ jobs:
       - name: Build package
         run: |
           python -m build
+      - name: Store the distribution packages
+        uses: actions/upload-artifact@v3
+        with:
+          name: python-package-distributions
+          path: dist/
+      - name: Download dists
+        uses: actions/download-artifact@v3
+        with:
+          name: python-package-distributions
+          path: dist/
+          
       - name: Publish package distributions to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
