@@ -23,3 +23,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: POSIX :: Linux",
 ]
+
+[project_urls]
+Source = "https://github.com/Valiewramis/Critical-Component-Finder"
