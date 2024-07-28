@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 include = [
-    "src/critical_component_finder_valiewramis/*.py"
+    "src/critical_component_finder_rv/*.py"
 ]
 
 [project]
@@ -12,7 +12,7 @@ dependencies = [
     "graphviz",
     "networkx"
 ]
-name = "critical_component_finder_valiewramis"
+name = "critical_component_finder_rv"
 version = "1.0.0"
 authors = [{name = "Ramis"}]
 description = "Finds critical components chain in C/C++ CMake projects"
