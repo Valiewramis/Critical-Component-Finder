@@ -27,7 +27,7 @@ setuptools.setup(
 ],
     python_requires=">=3.11",
     install_requires=INSTALL_REQUIRES,
-    packages=["src/critical-component-finder-rv"],
+    packages=["src/critical_component_finder_rv"],
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
 )
